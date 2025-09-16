@@ -51,9 +51,11 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center stagger-3 fade-in-up">
             <a
-              href="#"
+              href="https://github.com/samayamanthulaaasritha/elevate-showcase-50"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 glass rounded-xl hover:bg-primary/10 transition-all duration-300 group"
-              aria-label="GitHub"
+              aria-label="GitHub Repository"
             >
               <Github className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
