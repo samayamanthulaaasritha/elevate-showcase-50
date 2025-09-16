@@ -1,4 +1,4 @@
-import { ExternalLink, Github, User } from "lucide-react";
+import { ExternalLink, Github, User, Droplet, Utensils, PawPrint, GraduationCap, Heart, Book, Bot, School, Shield, Building, Code, Hotel, Library, Trophy, ClipboardList, Briefcase, PiggyBank, Home, Activity, Globe } from "lucide-react";
 import type { Project } from "@/data/projects";
 
 interface ProjectCardProps {
@@ -7,6 +7,8 @@ interface ProjectCardProps {
 }
 
 const ProjectCard = ({ project, index }: ProjectCardProps) => {
+  const fallbackImage = `/images/${project.category.toLowerCase().replace(/\s+/g, '-')}-bg.webp`;
+
   const getStatusColor = (status: string) => {
     switch (status) {
       case "completed":
@@ -41,31 +43,56 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
     }
   };
 
+  const getProjectIcon = (category: string) => {
+    switch (category) {
+      case "Healthcare": return <Droplet className="w-12 h-12" />;
+      case "Health & Fitness": return <Heart className="w-12 h-12" />;
+      case "Pet Care": return <PawPrint className="w-12 h-12" />;
+      case "Education": return <GraduationCap className="w-12 h-12" />;
+      case "Health & Wellness": return <Activity className="w-12 h-12" />;
+      case "Food & Cooking": return <Utensils className="w-12 h-12" />;
+      case "AI & Machine Learning": return <Bot className="w-12 h-12" />;
+      case "Education Technology": return <School className="w-12 h-12" />;
+      case "Security & Defense": return <Shield className="w-12 h-12" />;
+      case "Accommodation": return <Building className="w-12 h-12" />;
+      case "Hospitality": return <Hotel className="w-12 h-12" />;
+      case "Library Management": return <Library className="w-12 h-12" />;
+      case "Sports Management": return <Trophy className="w-12 h-12" />;
+      case "Education Management": return <ClipboardList className="w-12 h-12" />;
+      case "Job Portal": return <Briefcase className="w-12 h-12" />;
+      case "Finance Management": return <PiggyBank className="w-12 h-12" />;
+      case "Real Estate": return <Home className="w-12 h-12" />;
+      case "Healthcare Management": return <Activity className="w-12 h-12" />;
+      case "Geography & Travel": return <Globe className="w-12 h-12" />;
+      default: return <Code className="w-12 h-12" />;
+    }
+  };
+
   return (
-    <div
-      className={`project-card group fade-in-up stagger-${(index % 4) + 1} cursor-pointer`}
-      onClick={handleCardClick}
-    >
-      {/* Image Container */}
+    <div className={`project-card group fade-in-up stagger-${(index % 4) + 1} cursor-pointer`} onClick={handleCardClick}>
       <div className="relative overflow-hidden rounded-2xl mb-6">
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-48 object-cover"
+          className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
             target.style.display = 'none';
             target.nextElementSibling!.classList.remove('hidden');
           }}
         />
-        <div className="hidden w-full h-48 bg-gradient-primary flex items-center justify-center">
-          <div className="text-white text-4xl font-bold">
-            {project.teamNumber}
+        {/* Fallback with Icon */}
+        <div className="hidden w-full h-48 bg-gradient-primary flex flex-col items-center justify-center gap-4">
+          <div className="text-white/90">
+            {getProjectIcon(project.category)}
+          </div>
+          <div className="text-white text-xl font-semibold">
+            Team {project.teamNumber}
           </div>
         </div>
         
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        {/* Image overlay with gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         
         {/* Quick Actions */}
         <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
