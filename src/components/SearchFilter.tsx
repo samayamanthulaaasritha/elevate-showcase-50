@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Search, X, Filter } from "lucide-react";
+import { Search, X, Filter, ArrowLeft } from "lucide-react";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface SearchFilterProps {
   isOpen: boolean;
@@ -19,10 +20,32 @@ const SearchFilter = ({
   activeCategory,
 }: SearchFilterProps) => {
   const [searchQuery, setSearchQuery] = useState("");
+  const [hasSearched, setHasSearched] = useState(false);
 
   const handleSearchChange = (value: string) => {
     setSearchQuery(value);
-    onSearch(value);
+    if (value === "") {
+      setHasSearched(false);
+    }
+  };
+
+  const handleSearch = () => {
+    if (searchQuery.trim()) {
+      onSearch(searchQuery);
+      setHasSearched(true);
+    }
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter' && searchQuery.trim()) {
+      handleSearch();
+    }
+  };
+
+  const handleBack = () => {
+    setSearchQuery("");
+    onSearch("");
+    setHasSearched(false);
   };
 
   if (!isOpen) return null;
@@ -55,45 +78,69 @@ const SearchFilter = ({
             type="text"
             value={searchQuery}
             onChange={(e) => handleSearchChange(e.target.value)}
+            onKeyPress={handleKeyPress}
             placeholder="Search projects by name, technology, or description..."
-            className="w-full pl-12 pr-4 py-4 bg-muted/20 border border-border rounded-xl text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/40 transition-all"
+            className="w-full pl-12 pr-20 py-4 bg-muted/20 border border-border rounded-xl text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/40 transition-all"
             autoFocus
           />
+          {searchQuery.trim() && !hasSearched && (
+            <button
+              onClick={handleSearch}
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 px-4 py-1.5 bg-primary text-primary-foreground rounded-lg text-sm font-medium hover:bg-primary/90 transition-colors"
+            >
+              Search
+            </button>
+          )}
         </div>
 
-        {/* Category Filters */}
+        {/* Back to All Projects */}
+        {hasSearched && (
+          <div className="mb-6">
+            <button
+              onClick={handleBack}
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+            >
+              <ArrowLeft className="w-4 h-4" />
+              Back to All Projects
+            </button>
+          </div>
+        )}
+
+        {/* Category Filters with ScrollArea */}
         <div className="space-y-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Filter className="w-4 h-4" />
             <span>Filter by category:</span>
           </div>
           
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => onFilter("")}
-              className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
-                activeCategory === ""
-                  ? "bg-primary text-primary-foreground shadow-glow"
-                  : "glass hover:bg-muted/20"
-              }`}
-            >
-              All Projects
-            </button>
-            
-            {categories.map((category) => (
+          <ScrollArea className="h-[180px] pr-4">
+            <div className="flex flex-wrap gap-2">
               <button
-                key={category}
-                onClick={() => onFilter(category)}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all capitalize ${
-                  activeCategory === category
+                onClick={() => onFilter("")}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                  activeCategory === ""
                     ? "bg-primary text-primary-foreground shadow-glow"
                     : "glass hover:bg-muted/20"
                 }`}
               >
-                {category}
+                All Projects
               </button>
-            ))}
-          </div>
+              
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => onFilter(category)}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all capitalize ${
+                    activeCategory === category
+                      ? "bg-primary text-primary-foreground shadow-glow"
+                      : "glass hover:bg-muted/20"
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+          </ScrollArea>
         </div>
 
         {/* Quick Actions */}

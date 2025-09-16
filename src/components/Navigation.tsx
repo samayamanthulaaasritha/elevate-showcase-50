@@ -76,21 +76,7 @@ const Navigation = ({ onSearchToggle }: NavigationProps) => {
 
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-3">
-            <button
-              onClick={onSearchToggle}
-              className="glass rounded-lg p-2 hover:bg-primary/10 transition-colors"
-              aria-label="Search projects"
-            >
-              <Search className="w-5 h-5 text-muted-foreground" />
-            </button>
             <ThemeToggle />
-            <Link
-              to="/admin"
-              className="glass rounded-lg p-2 hover:bg-primary/10 transition-colors"
-              aria-label="Admin Dashboard"
-            >
-              <Settings className="w-5 h-5 text-muted-foreground" />
-            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -128,21 +114,6 @@ const Navigation = ({ onSearchToggle }: NavigationProps) => {
                 <FolderOpen className="w-4 h-4" />
                 <span>Projects</span>
               </button>
-              <hr className="border-border/20" />
-              <button
-                onClick={onSearchToggle}
-                className="flex items-center space-x-2 text-foreground/80 hover:text-foreground transition-colors py-2"
-              >
-                <Search className="w-4 h-4" />
-                <span>Search Projects</span>
-              </button>
-              <Link
-                to="/admin"
-                className="flex items-center space-x-2 text-foreground/80 hover:text-foreground transition-colors py-2"
-              >
-                <Settings className="w-4 h-4" />
-                <span>Admin Dashboard</span>
-              </Link>
             </div>
           </div>
         )}

@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import ProjectGrid, { useProjectCategories } from "@/components/ProjectGrid";
-import SearchFilter from "@/components/SearchFilter";
+import { Settings } from "lucide-react";
+import { Link } from "react-router-dom";
 import LoadingAnimation from "@/components/LoadingAnimation";
 
 const Portfolio = () => {
@@ -48,7 +49,7 @@ const Portfolio = () => {
       </main>
 
       {/* Enhanced Footer */}
-      <footer className="py-16 border-t border-border/20 bg-gradient-to-br from-background via-background to-secondary/10">
+      <footer className="py-16 bg-gradient-to-br from-primary/5 via-background to-accent/5 border-t border-border/20">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {/* Brand Section */}
@@ -80,6 +81,12 @@ const Portfolio = () => {
                 >
                   Projects
                 </button>
+                <Link
+                  to="/admin"
+                  className="block text-muted-foreground hover:text-primary transition-colors"
+                >
+                  Admin Dashboard
+                </Link>
               </div>
             </div>
 
@@ -105,16 +112,6 @@ const Portfolio = () => {
           </div>
         </div>
       </footer>
-
-      {/* Search Filter Modal */}
-      <SearchFilter
-        isOpen={isSearchOpen}
-        onClose={() => setIsSearchOpen(false)}
-        onSearch={handleSearch}
-        onFilter={handleFilter}
-        categories={categories}
-        activeCategory={activeCategory}
-      />
     </div>
   );
 };
