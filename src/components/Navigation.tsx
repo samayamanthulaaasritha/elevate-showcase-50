@@ -52,7 +52,7 @@ const Navigation = ({ onSearchToggle }: NavigationProps) => {
               <span className="text-lg font-bold text-white">P</span>
             </div>
             <span className="text-xl font-display font-semibold gradient-text">
-              Portfolio
+              Projects
             </span>
           </div>
 
