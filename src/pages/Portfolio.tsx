@@ -55,10 +55,10 @@ const Portfolio = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
                 <span className="text-sm font-bold text-white">P</span>
               </div>
-              <span className="font-display font-semibold gradient-text">Premium Portfolio</span>
+              <span className="font-display font-semibold gradient-text">Portfolio</span>
             </div>
             <div className="text-sm text-muted-foreground">
-              © 2024 Premium Portfolio. Crafted with passion.
+              © 2024 Portfolio. Crafted with passion.
             </div>
           </div>
         </div>

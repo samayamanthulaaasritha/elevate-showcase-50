@@ -251,6 +251,22 @@
     box-shadow: var(--shadow-elegant);
   }
 
+  /* Navigation Styles */
+  .glass-nav {
+    background: hsla(var(--background) / 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid hsla(var(--border) / 0.1);
+  }
+
+  .glass-nav-scrolled {
+    background: hsla(var(--background) / 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid hsla(var(--border) / 0.2);
+    box-shadow: 0 4px 20px -2px hsla(var(--foreground) / 0.1);
+  }
+
   /* Scroll Animations */
   .fade-in-up {
     opacity: 0;
