@@ -107,7 +107,7 @@ const Portfolio = () => {
               © 2024 KIET Projects. Crafted with passion by talented students.
             </div>
             <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-              <span>Made with ❤️ by KIET Students</span>
+              <span>Made with ❤️ by KIET Womens Students</span>
             </div>
           </div>
         </div>

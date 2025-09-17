@@ -347,7 +347,7 @@ export const projects: Project[] = [
     title: "Feedback review",
     description: "Customer feedback management system that collects, analyzes, and generates insights from user reviews and ratings.",
     category: "Business Management",
-    technologies: ["React", "Database", "Search Engine", "User Management"],
+    technologies: ["React", "Database", "Search Engine", "User Management","username:student","password:1234"],
     status: "completed",
     liveUrl: " https://sindhufeedback.netlify.app/",
     githubUrl: "https://github.com/saikeerthi1510/feedback-review-.git ",
