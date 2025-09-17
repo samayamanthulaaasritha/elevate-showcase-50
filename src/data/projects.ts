@@ -232,7 +232,7 @@ export const projects: Project[] = [
     category: "Health & Wellness",
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     status: "completed",
-    liveUrl: "https://healthy-tips1.netlify.app",
+    liveUrl: "https://healthy-tips.onrender.com",
     githubUrl: "https://github.com/polavarupusreeja/HEALTHY_TIPS",
     image: "https://www.momjunction.com/wp-content/uploads/2020/11/17-Simple-And-Useful-Health-Tips-For-Children-To-Follow-Banner.jpg.webp", // Wellness/exercise content
   },
@@ -261,7 +261,114 @@ export const projects: Project[] = [
     liveUrl: "https://randomcountryexplorer.netlify.app",
     githubUrl: "https://github.com/gnanavaishnavi77/random-country-explorer",
     image: "https://randomcountrygenerator.com/img/social/pick_random_country_fb.jpg" // Travel/geography imagee
-  }
+  },
+  {
+    id: 20,
+    teamNumber: 20,
+    teamLead: "K.Hima sri",
+    title: "KietW library management system",
+    description: "Comprehensive library management system designed specifically for KIETW students and faculty, featuring book tracking, digital catalogs, and automated lending workflows.",
+    category: "Library Management",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: "https://kiewlibrary.onrender.com/contact",
+    githubUrl: "https://github.com/KanumuriHimasri1709/KIETW-LIBRARY",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+   {
+    id: 21,
+    teamNumber: 21,
+    teamLead: "B.Reshma",
+    title: "Internship finder for Students",
+    description: "Platform connecting students with internship opportunities, featuring company listings, application tracking, and skill matching capabilities.",
+    category: "Job Portal",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: " https://internshipfinderforstudents.onrender.com ",
+    githubUrl: " https://github.com/reshmabandela7268/Internship-for-students",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+  {
+    id: 22,
+    teamNumber: 22,
+    teamLead: "G.Haritha",
+    title: "Student marks calculation",
+    description: "Academic performance tracking system that helps calculate and analyze student marks, generate reports, and track progress over time.",
+    category: "Education Management",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: "  https://studentsmarkscalculator.onrender.com/login ",
+    githubUrl: " https://github.com/ReddiNagamani/students-marks-calculator",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+  {
+    id: 23,
+    teamNumber: 23,
+    teamLead: ":N.Bala prasanna",
+    title: "Dream Events",
+    description: "Event planning and management platform for organizing celebrations, corporate events, and social gatherings with comprehensive event coordination features.",
+    category: "Event Management",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: "   https://dreamevents.onrender.com  ",
+    githubUrl: " https://github.com/hasini3107/Dream-Events.git",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+  {
+    id: 24,
+    teamNumber: 24,
+    teamLead: ":G.Devika",
+    title: "Medicine smart reminder",
+    description: "Healthcare application that helps users track their medication schedule, set reminders, and maintain their medical history.",
+    category: "Healthcare",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: "  https://smartmedicine.onrender.com  ",
+    githubUrl: "https://github.com/rekapallidrakshayanidivyasri/smart-medicine",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+  {
+    id: 25,
+    teamNumber: 25,
+    teamLead: ":Y.Roopa Sri",
+    title: "Fitness tracking analyzer",
+    description: "Personal fitness monitoring system that tracks workouts, analyzes performance metrics, and provides personalized health insights.",
+    category: "Health & Fitness",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: " https://fitness-tracking-analyzer.netlify.app/  ",
+    githubUrl: "https://github.com/Akshitha200728/fitness-tracking-analyizer1",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+   {
+    id: 26,
+    teamNumber: 26,
+    teamLead: ": R.Sindhu Sri",
+    title: "Feedback review",
+    description: "Customer feedback management system that collects, analyzes, and generates insights from user reviews and ratings.",
+    category: "Business Management",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: " https://sindhufeedback.netlify.app/",
+    githubUrl: "https://github.com/saikeerthi1510/feedback-review-.git ",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+  {
+    id: 27,
+    teamNumber: 27,
+    teamLead: ": P.Nikhitha",
+    title: "Blood donor finder",
+    description: "Healthcare platform that connects blood donors with recipients, featuring urgent request management and donation tracking.",
+    category: "Healthcare",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: " https://blooddonar11.netlify.app/ ",
+    githubUrl: "https://github.com/Nikhitha21Kalyan/BLOOD-DONOR-FINDER ",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+  },
+  
+  
+
 ];
 
 export const getProjectCategories = (): string[] => {
