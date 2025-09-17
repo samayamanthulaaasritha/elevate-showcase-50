@@ -273,7 +273,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: "https://kiewlibrary.onrender.com/contact",
     githubUrl: "https://github.com/KanumuriHimasri1709/KIETW-LIBRARY",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://5.imimg.com/data5/SELLER/Default/2024/4/412012786/UZ/RT/CT/37169537/library-management-system-250x250.png", // Digital library catalog
   },
    {
     id: 21,
@@ -286,7 +286,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: " https://internshipfinderforstudents.onrender.com ",
     githubUrl: " https://github.com/reshmabandela7268/Internship-for-students",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210730204741/How-to-Find-an-Internship-as-a-College-Student.png", // Digital library catalog
   },
   {
     id: 22,
@@ -299,7 +299,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: "  https://studentsmarkscalculator.onrender.com/login ",
     githubUrl: " https://github.com/ReddiNagamani/students-marks-calculator",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrgeM0ByltsjwepLkn1EerF5OicD6mqpKbUQ&s", // Digital library catalog
   },
   {
     id: 23,
@@ -312,7 +312,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: "   https://dreamevents.onrender.com  ",
     githubUrl: " https://github.com/hasini3107/Dream-Events.git",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://img1.wsimg.com/isteam/ip/20a2f0cc-9981-4300-9a96-cbc61b2e6875/995FCC40-904B-4849-826A-8496388EA316.png", // Digital library catalog
   },
   {
     id: 24,
@@ -325,7 +325,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: "  https://smartmedicine.onrender.com  ",
     githubUrl: "https://github.com/rekapallidrakshayanidivyasri/smart-medicine",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://www.shutterstock.com/image-vector/3d-realistic-smartphone-hand-holds-260nw-2343568305.jpg", // Digital library catalog
   },
   {
     id: 25,
@@ -338,7 +338,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: " https://fitness-tracking-analyzer.netlify.app/  ",
     githubUrl: "https://github.com/Akshitha200728/fitness-tracking-analyizer1",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxBSPvjAx2OCsjpI011BSHl1lh-q0L1Nxqg&s", // Digital library catalog
   },
    {
     id: 26,
@@ -351,7 +351,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: " https://sindhufeedback.netlify.app/",
     githubUrl: "https://github.com/saikeerthi1510/feedback-review-.git ",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://enventyspartners.com/wp-content/uploads/2022/02/user-reviews-online-customer-feedback-review-vector-28490158.jpeg", // Digital library catalog
   },
   {
     id: 27,
@@ -364,7 +364,7 @@ export const projects: Project[] = [
     status: "completed",
     liveUrl: " https://blooddonar11.netlify.app/ ",
     githubUrl: "https://github.com/Nikhitha21Kalyan/BLOOD-DONOR-FINDER ",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbtp9E5fqGHt5_7S3C_lfPyha6jolnOlXWQ&s", // Digital library catalog
   },
   
   
