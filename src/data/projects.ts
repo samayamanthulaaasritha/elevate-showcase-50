@@ -144,19 +144,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/vamisettisowjanya/BOOK-COLLECTION",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgQkxN-TFkw-qgA1RKnj0Tmp4i7tXAbuEl3A&s", // Digital library catalog
   },
-  {
-    id: 11,
-    teamNumber: 11,
-    teamLead: "K Hema Supriya",
-    title: "Health Organization Hub",
-    description: "Healthcare organization management system for coordinating medical services and patient care across multiple facilities.",
-    category: "Healthcare Management",
-    technologies: ["React", "Healthcare Systems", "Patient Management", "Multi-facility"],
-    status: "completed",
-    liveUrl: "https://healthorganization.vercel.app",
-    githubUrl: "https://github.com/VijayaGajula/healthorganization.git",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT41bPjPKzhSqjFYZTDGQdf7H4p9CBD8xwYJw&s" // Healthcare organization image
-  },
+
   
   {
     id: 12,
@@ -171,19 +159,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/meesalamadhuri93-cpu/edutrack.git",
     image: "https://hrsoftware.in/wp-content/uploads/2023/04/Choosing-The-Right-Attendance-Management-System.jpg" // Education/attendance imagem
   },
-   {
-    id: 13,
-    teamNumber: 13,
-    teamLead: "B.Kundhana Gowri",
-    title: "Women's Hostel Management",
-    description: "Comprehensive hostel management system for women's hostels including room allocation, fee management, and student services.",
-    category: "Accommodation",
-    technologies: ["React", "Node.js", "Express", "Database Management"],
-    status: "completed",
-    liveUrl: "https://hostellife.netlify.app",
-    githubUrl: "https://github.com/pravalli2005/HOSTEL-LIFE",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi_IxM8-MmGhDvSmweZKOvt_Z6AYAAGBXVww&s", // Hostel management dashboard
-  },  
+  
   {
     id: 14,
     teamNumber: 14,
@@ -236,19 +212,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/polavarupusreeja/HEALTHY_TIPS",
     image: "https://www.momjunction.com/wp-content/uploads/2020/11/17-Simple-And-Useful-Health-Tips-For-Children-To-Follow-Banner.jpg.webp", // Wellness/exercise content
   },
-  {
-    id: 18,
-    teamNumber: 18,
-    teamLead: "V.Sai Mounika",
-    title: "Sports Hub",
-    description: "Sports management platform for organizing tournaments, tracking player statistics, and managing sports events.",
-    category: "Sports Management",
-    technologies: ["React", "Node.js", "Sports Analytics", "Event Management"],
-    status: "completed",
-    liveUrl: "https://sports-hub-2.onrender.com/",
-    githubUrl: "https://github.com/anjiliranibevara123/sports_hub",
-    image: "https://img.freepik.com/premium-photo/international-sports-hub-where-athletes-fans_976492-120390.jpg", // Sports event management
-  },
+
   {
     id: 19,
     teamNumber: 19,
@@ -288,45 +252,9 @@ export const projects: Project[] = [
     githubUrl: " https://github.com/reshmabandela7268/Internship-for-students",
     image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210730204741/How-to-Find-an-Internship-as-a-College-Student.png", // Digital library catalog
   },
-  {
-    id: 22,
-    teamNumber: 22,
-    teamLead: "G.Haritha",
-    title: "Student marks calculation",
-    description: "Academic performance tracking system that helps calculate and analyze student marks, generate reports, and track progress over time.",
-    category: "Education Management",
-    technologies: ["React", "Database", "Search Engine", "User Management"],
-    status: "completed",
-    liveUrl: "  https://studentsmarkscalculator.onrender.com/login ",
-    githubUrl: " https://github.com/ReddiNagamani/students-marks-calculator",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrgeM0ByltsjwepLkn1EerF5OicD6mqpKbUQ&s", // Digital library catalog
-  },
-  {
-    id: 23,
-    teamNumber: 23,
-    teamLead: ":N.Bala prasanna",
-    title: "Dream Events",
-    description: "Event planning and management platform for organizing celebrations, corporate events, and social gatherings with comprehensive event coordination features.",
-    category: "Event Management",
-    technologies: ["React", "Database", "Search Engine", "User Management"],
-    status: "completed",
-    liveUrl: "   https://dreamevents.onrender.com  ",
-    githubUrl: " https://github.com/hasini3107/Dream-Events.git",
-    image: "https://img1.wsimg.com/isteam/ip/20a2f0cc-9981-4300-9a96-cbc61b2e6875/995FCC40-904B-4849-826A-8496388EA316.png", // Digital library catalog
-  },
-  {
-    id: 24,
-    teamNumber: 24,
-    teamLead: ":G.Devika",
-    title: "Medicine smart reminder",
-    description: "Healthcare application that helps users track their medication schedule, set reminders, and maintain their medical history.",
-    category: "Healthcare",
-    technologies: ["React", "Database", "Search Engine", "User Management"],
-    status: "completed",
-    liveUrl: "  https://smartmedicine.onrender.com  ",
-    githubUrl: "https://github.com/rekapallidrakshayanidivyasri/smart-medicine",
-    image: "https://www.shutterstock.com/image-vector/3d-realistic-smartphone-hand-holds-260nw-2343568305.jpg", // Digital library catalog
-  },
+
+
+
   {
     id: 25,
     teamNumber: 25,
@@ -343,15 +271,15 @@ export const projects: Project[] = [
    {
     id: 26,
     teamNumber: 26,
-    teamLead: ": R.Sindhu Sri",
+    teamLead: "R.Sindhu Sri",
     title: "Feedback review",
-    description: "Customer feedback management system that collects, analyzes, and generates insights from user reviews and ratings.",
+    description: "Login Credentials - Username: student, Password: 1234 Customer feedback management system that collects, analyzes, and generates insights from user reviews and ratings. ",
     category: "Business Management",
-    technologies: ["React", "Database", "Search Engine", "User Management","username:student","password:1234"],
+    technologies: ["React", "Database", "Search Engine", "User Management"],
     status: "completed",
     liveUrl: " https://sindhufeedback.netlify.app/",
-    githubUrl: "https://github.com/saikeerthi1510/feedback-review-.git ",
-    image: "https://enventyspartners.com/wp-content/uploads/2022/02/user-reviews-online-customer-feedback-review-vector-28490158.jpeg", // Digital library catalog
+    githubUrl: "https://github.com/saikeerthi1510/feedback-review-.git",
+    image: "https://enventyspartners.com/wp-content/uploads/2022/02/user-reviews-online-customer-feedback-review-vector-28490158.jpeg"
   },
   {
     id: 27,
