@@ -147,8 +147,8 @@ export const projects: Project[] = [
 
   
   {
-    id: 12,
-    teamNumber: 12,
+    id: 11,
+    teamNumber: 11,
     teamLead: "M.Madhuri",
     title: "Attendance Management System",
     description: "Digital attendance tracking system for educational institutions with automated reporting and analytics.",
@@ -161,8 +161,8 @@ export const projects: Project[] = [
   },
   
   {
-    id: 14,
-    teamNumber: 14,
+    id: 12,
+    teamNumber: 12,
     teamLead: "N Mounika",
     title: "Student Diary",
     description: "Virtual diary application for students to manage their academic schedule, assignments, and track their progress.",
@@ -174,8 +174,8 @@ export const projects: Project[] = [
     image: "https://mir-s3-cdn-cf.behance.net/projects/404/1468b9185168221.Y3JvcCwxOTAwLDE0ODYsMCw0.jpg", // Student planner/calendar view
   },
   {
-    id: 15,
-    teamNumber: 15,
+    id: 13,
+    teamNumber: 13,
     teamLead: "A.Gayathri",
     title: "Pet Care Center",
     description: "Comprehensive pet care management system for veterinary clinics and pet owners to schedule appointments and track pet health.",
@@ -187,8 +187,8 @@ export const projects: Project[] = [
     image: "https://vetic-img.s3.ap-south-1.amazonaws.com/website/Website-Astro/grooming_page/why_choose_vetic/international+pdts.webp", // Veterinary/pet care interface
   },
    {
-    id: 16,
-    teamNumber: 16,
+    id: 14,
+    teamNumber: 14,
     teamLead: "Shyamala",
     title: "Recipe Card",
     description: "Digital recipe collection platform where users can discover, save, and share their favorite recipes with detailed instructions.",
@@ -200,8 +200,8 @@ export const projects: Project[] = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz2yu8B3CgavkNQ4M288StQubb2g7qStyqhg&s", // Food/recipe collection view
   },
   {
-    id: 17,
-    teamNumber: 17,
+    id: 15,
+    teamNumber: 15,
     teamLead: "P Yuva Sreeja",
     title: "Healthy Tips",
     description: "Health and wellness platform providing daily health tips, exercise routines, and wellness advice for a healthy lifestyle.",
@@ -214,8 +214,8 @@ export const projects: Project[] = [
   },
 
   {
-    id: 19,
-    teamNumber: 19,
+    id: 16,
+    teamNumber: 16,
     teamLead: "Gnana Vyshanavi",
     title: "Random Country Explorer",
     description: "Interactive geographical application for exploring random countries with detailed information and cultural insights.",
@@ -227,8 +227,8 @@ export const projects: Project[] = [
     image: "https://randomcountrygenerator.com/img/social/pick_random_country_fb.jpg" // Travel/geography imagee
   },
   {
-    id: 20,
-    teamNumber: 20,
+    id: 17,
+    teamNumber: 17,
     teamLead: "K.Hima sri",
     title: "KietW library management system",
     description: "Comprehensive library management system designed specifically for KIETW students and faculty, featuring book tracking, digital catalogs, and automated lending workflows.",
@@ -240,8 +240,8 @@ export const projects: Project[] = [
     image: "https://5.imimg.com/data5/SELLER/Default/2024/4/412012786/UZ/RT/CT/37169537/library-management-system-250x250.png", // Digital library catalog
   },
    {
-    id: 21,
-    teamNumber: 21,
+    id: 18,
+    teamNumber: 18,
     teamLead: "B.Reshma",
     title: "Internship finder for Students",
     description: "Platform connecting students with internship opportunities, featuring company listings, application tracking, and skill matching capabilities.",
@@ -252,12 +252,24 @@ export const projects: Project[] = [
     githubUrl: " https://github.com/reshmabandela7268/Internship-for-students",
     image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210730204741/How-to-Find-an-Internship-as-a-College-Student.png", // Digital library catalog
   },
-
-
-
   {
-    id: 25,
-    teamNumber: 25,
+    id: 19,
+    teamNumber: 19,
+    teamLead: "G.Haritha",
+    title: "Student marks calculation",
+    description: "Academic performance tracking system that helps calculate and analyze student marks, generate reports, and track progress over time.",
+    category: "Education Management",
+    technologies: ["React", "Database", "Search Engine", "User Management"],
+    status: "completed",
+    liveUrl: "  https://students-marks-calculator.onrender.com ",
+    githubUrl: " https://github.com/ReddiNagamani/students-marks-calculator",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrgeM0ByltsjwepLkn1EerF5OicD6mqpKbUQ&s", // Digital library catalog
+  },
+
+ 
+  {
+    id: 20,
+    teamNumber: 20,
     teamLead: ":Y.Roopa Sri",
     title: "Fitness tracking analyzer",
     description: "Personal fitness monitoring system that tracks workouts, analyzes performance metrics, and provides personalized health insights.",
@@ -269,8 +281,8 @@ export const projects: Project[] = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxBSPvjAx2OCsjpI011BSHl1lh-q0L1Nxqg&s", // Digital library catalog
   },
    {
-    id: 26,
-    teamNumber: 26,
+    id: 21,
+    teamNumber: 21,
     teamLead: "R.Sindhu Sri",
     title: "Feedback review",
     description: "Login Credentials - Username: student, Password: 1234 Customer feedback management system that collects, analyzes, and generates insights from user reviews and ratings. ",
@@ -282,8 +294,8 @@ export const projects: Project[] = [
     image: "https://enventyspartners.com/wp-content/uploads/2022/02/user-reviews-online-customer-feedback-review-vector-28490158.jpeg"
   },
   {
-    id: 27,
-    teamNumber: 27,
+    id: 22,
+    teamNumber: 22,
     teamLead: ": P.Nikhitha",
     title: "Blood donor finder",
     description: "Healthcare platform that connects blood donors with recipients, featuring urgent request management and donation tracking.",
